@@ -3,7 +3,8 @@ import java.util.Locale;
 import java.util.Scanner;
 public class check {
 	public static void main(String[] args) {
-        	//从命令行输入的路径名读取对应的文件，将文件的内容转化为对应的字符串		
+        	//从命令行输入的路径名读取对应的文件，将文件的内容转化为对应的字符串
+		System.out.println("依次输入原文件，对比文件和输出文件的地址");
 	Scanner sc = new Scanner(System.in).useLocale(Locale.US);
       	String A = sc.next();
         String B = sc.next();
