@@ -8,6 +8,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="jar/hanlp-1.8.3.jar"/>
 	<classpathentry kind="lib" path="jar/hanlp-1.8.3-sources.jar"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+=======
+>>>>>>> 5f484093881140f718c3f7b04dda3750f441ff22
 	<classpathentry kind="output" path="bin"/>
 </classpath>
