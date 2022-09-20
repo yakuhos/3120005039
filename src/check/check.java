@@ -1,35 +1,23 @@
 package check;
-<<<<<<< HEAD
 import java.util.Locale;
 import java.util.Scanner;
-
 public class check {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+	Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         String A = sc.next();
         String B = sc.next();
         String C = sc.next();
 		String str0 = txtio.readtxt(A);
         String str1 = txtio.readtxt(B);
         String result = C;
-=======
-
-
-public class check {
-	public static void main(String[] args) {
-        //´ÓÃüÁîĞĞÊäÈëµÄÂ·¾¶Ãû¶ÁÈ¡¶ÔÓ¦µÄÎÄ¼ş£¬½«ÎÄ¼şµÄÄÚÈİ×ª»¯Îª¶ÔÓ¦µÄ×Ö·û´®
-        String str0 = txtio.readtxt(args[0]);
-        String str1 = txtio.readtxt(args[1]);
-        String result = args[2];
->>>>>>> 5f484093881140f718c3f7b04dda3750f441ff22
-        //ÓÉ×Ö·û´®µÃ³ö¶ÔÓ¦µÄ simhashÖµ
+        //ç”±å­—ç¬¦ä¸²å¾—å‡ºå¯¹åº”çš„ simhashå€¼
         String simhash0 = simhash.getsimhash(str0);
         String simhash1 = simhash.getsimhash(str1);
-        //ÓÉsimhashÖµÇó³öÏàËÆ¶È
+        //ç”±simhashå€¼æ±‚å‡ºç›¸ä¼¼åº¦
         double similarity = hamming.getsimilarity(simhash0, simhash1);
-        //°ÑÏàËÆ¶ÈĞ´Èë×îºóµÄ½á¹ûÎÄ¼şÖĞ
+        //æŠŠç›¸ä¼¼åº¦å†™å…¥æœ€åçš„ç»“æœæ–‡ä»¶ä¸­
         txtio.writetxt(similarity, result);
-        //ÍË³ö³ÌĞò
+        //é€€å‡ºç¨‹åº
         System.exit(0);
     }
     
