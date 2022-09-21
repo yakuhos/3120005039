@@ -2,7 +2,13 @@ package check;
 
 public class stringexception extends Exception{
 
-    public stringexception() {
+    /**
+	 * 
+	 */
+	//Ïû³ýwarnning
+	private static final long serialVersionUID = 1L;
+
+	public stringexception() {
         super();
     }
 

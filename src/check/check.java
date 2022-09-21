@@ -20,6 +20,7 @@ public class check {
        	//把相似度写入最后的结果文件中
        	txtio.writetxt(similarity, result);
         //退出程序
+       	sc.close();
         System.exit(0);
     	}
 }
